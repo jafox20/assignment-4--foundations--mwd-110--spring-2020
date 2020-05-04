@@ -8,7 +8,17 @@ body {
    background-image: linear-gradient( to right, white, $primary-color);
 }
 
-h1 {
+.Logo {
+   width: 300px; 
+   padding: 5px;  
    border-style: solid; 
-   border-color: black; 
+   border-width: 15px; 
+   text-align: right; 
+   letter-spacing: 5px; 
+   line-height: normal;
+}
+
+h1 {
+   font-size: 50px;
+   text-align: center;  
 }
