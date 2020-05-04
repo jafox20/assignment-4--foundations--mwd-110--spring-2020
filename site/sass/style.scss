@@ -1,3 +1,14 @@
+$primary-color: #83FFF2;
+$primary-color-dark: #49B3A8;
+$secondary-color: #FFE169;
+$secondar-color-dark: #B3A052;
+
+
 body {
-   background-color: black; 
+   background-image: linear-gradient( to right, white, $primary-color);
+}
+
+h1 {
+   border-style: solid; 
+   border-color: black; 
 }
