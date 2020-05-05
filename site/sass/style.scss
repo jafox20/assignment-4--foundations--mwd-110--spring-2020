@@ -1,14 +1,19 @@
 $primary-color: #83FFF2;
 $primary-color-dark: #49B3A8;
 $secondary-color: #FFE169;
-$secondar-color-dark: #B3A052;
+$secondary-color-dark: #B3A052;
 
 
-body {
-   background-image: linear-gradient( to right, white, $primary-color);
+#index { 
+   background-color: white; 
+   background-color: silver; 
 }
 
 .Logo {
+   font-family: 'Work Sans', sans-serif;
+   position: relative; 
+   top: 150px; 
+   left: 5px; 
    width: 300px; 
    padding: 5px;  
    border-style: solid; 
@@ -16,9 +21,38 @@ body {
    text-align: right; 
    letter-spacing: 5px; 
    line-height: normal;
+   background-image: linear-gradient(90deg, white, $primary-color);
 }
 
-h1 {
+h1 { 
    font-size: 50px;
    text-align: center;  
+   border-right-style: dotted;
+   border-left-style: dotted; 
+   border-width: 5px; 
+   border-radius: 5px; 
+   border-color: $primary-color-dark; 
 }
+
+#Good_Design {
+   font-family: 'Work Sans', sans-serif;
+   position: relative; 
+   font-size: 58px; 
+   left: 385px; 
+   top: -20px;  
+   text-decoration: none; 
+   color: Black; 
+   background-image: linear-gradient(90deg, white, $primary-color);
+   padding: 16px; 
+   border-radius: 50px; 
+   text-align: center; 
+   border-style: ridge;
+   border-width: 6px; 
+}
+
+#Good_Design:hover {
+   color: $primary-color-dark;
+}
+
+
+
