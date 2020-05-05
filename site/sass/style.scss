@@ -5,15 +5,16 @@ $secondary-color-dark: #B3A052;
 
 
 #index { 
-   background-color: white; 
    background-color: silver; 
+   background-image: linear-gradient(90deg, black, white);
+   background-size: cover;
 }
 
 .Logo {
    font-family: 'Work Sans', sans-serif;
    position: relative; 
    top: 150px; 
-   left: 5px; 
+   left: 2%; 
    width: 300px; 
    padding: 5px;  
    border-style: solid; 
@@ -38,7 +39,7 @@ h1 {
    font-family: 'Work Sans', sans-serif;
    position: relative; 
    font-size: 58px; 
-   left: 385px; 
+   left: 410px; 
    top: -20px;  
    text-decoration: none; 
    color: Black; 
