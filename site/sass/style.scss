@@ -5,6 +5,7 @@ $secondary-color-dark: #B3A052;
 
 
 #index { 
+   margin: 0 auto; 
    background-color: silver; 
    background-image: linear-gradient(90deg, black, white);
    background-size: cover;
@@ -12,9 +13,7 @@ $secondary-color-dark: #B3A052;
 
 .Logo {
    font-family: 'Work Sans', sans-serif;
-   position: relative; 
-   top: 150px; 
-   left: 2%; 
+   margin: 0 auto; 
    width: 300px; 
    padding: 5px;  
    border-style: solid; 
@@ -36,11 +35,13 @@ h1 {
 }
 
 #Good_Design {
-   font-family: 'Work Sans', sans-serif;
-   position: relative; 
+   font-family: 'Work Sans', sans-serif; 
    font-size: 58px; 
-   left: 410px; 
-   top: -20px;  
+   margin: 0 auto; 
+   position: relative; 
+   top: 25px; 
+   display: block;
+   width: 450px; 
    text-decoration: none; 
    color: Black; 
    background-image: linear-gradient(90deg, white, $primary-color);
@@ -54,6 +55,3 @@ h1 {
 #Good_Design:hover {
    color: $primary-color-dark;
 }
-
-
-
